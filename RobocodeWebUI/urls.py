@@ -8,6 +8,7 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'RobocodeWebUI.views.home', name='home'),
     # url(r'^RobocodeWebUI/', include('RobocodeWebUI.foo.urls')),
+    url(r'^signup$', 'signup.views.signup_page'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
